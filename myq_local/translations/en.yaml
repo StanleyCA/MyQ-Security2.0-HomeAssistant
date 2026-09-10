@@ -1,0 +1,18 @@
+configuration:
+  serial:
+    name: Device serial
+    description: Enter this opener's ten-character TLS-PSK identity and myQ serial number.
+  device_id:
+    name: Door device ID
+    description: Enter this opener's six-byte door identifier as twelve hexadecimal characters.
+  psk:
+    name: TLS pre-shared key
+    description: Enter this opener's device-specific sixteen-byte key as 32 hexadecimal characters.
+  name:
+    name: Device name
+    description: The name displayed in Home Assistant.
+  discovery_prefix:
+    name: MQTT discovery prefix
+    description: Usually homeassistant.
+network:
+  8883/tcp: Device-facing TLS 1.2 PSK MQTT
