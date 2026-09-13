@@ -4,6 +4,7 @@ Control a Chamberlain/myQ garage-door opener locally through Home Assistant usin
 
 ## What it supports
 
+- Logic Board: 050DCTWF https://www.chamberlain.com/receiver-logic-board-dc-wifi/p/050DCTWF
 - Open and close commands from Home Assistant.
 - Reported door states: open, closed, opening, and closing.
 - MQTT discovery and device availability reporting.
